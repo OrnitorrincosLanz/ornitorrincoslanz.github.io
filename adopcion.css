@@ -1,13 +1,34 @@
+
+body{
+    background-color: white;
+    width: 90%;
+}
+
+
 nav ul li{
     display: inline-block;
     color: white;
-    margin: ;
+    padding: 10px;
 }
 
 nav{
     text-align: center;
     margin-top: 50px;
-    background-color: brown;
-    padding:1px;
+    background-color:cornflowerblue;
 }
 
+.alinear{
+    margin-right: 250px;
+}
+
+.alinear2{
+    margin-left: 250px;
+}
+
+header{
+    text-align: center;
+}
+
+header > p{
+    font-size: 15px;
+}
