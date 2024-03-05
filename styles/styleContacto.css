@@ -27,6 +27,8 @@ nav ul{
     padding-top:10px;
     background-color: aquamarine;
     height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 nav ul li a{
     text-decoration: none;
