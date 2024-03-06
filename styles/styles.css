@@ -61,5 +61,38 @@ footer {
 
 #socials {
     color: black;
-    font-size: 24px;
+    font-size: 70px;
+}
+
+#socials a:visited {
+    color: black;
+    
+}
+
+#socials a:hover {
+    background-color: #f2f2f2;
+    transition: transform 1s ease-in-out;
+}
+
+#socials a:hover {
+    font-size: 1.5em;
+}
+
+#socials a {
+    transition: transform 1.5s ease-in-out;
+}
+
+#socials a:hover {
+    transform: scale(1.1);
+}
+
+main div {
+    display: flex;
+    justify-content: space-around;
+}
+div img {
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    text-align: center;
 }

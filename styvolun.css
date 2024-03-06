@@ -1,0 +1,59 @@
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para el formulario de voluntariado */
+#volunteer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#volunteer h2 {
+    color: #333;
+}
+
+#volunteer p {
+    color: #666;
+}
+
+#volunteer form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#volunteer form input[type="text"],
+#volunteer form input[type="email"],
+#volunteer form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#volunteer form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#volunteer form input[type="submit"]:hover {
+    background-color: #555;
+}
