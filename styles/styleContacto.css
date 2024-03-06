@@ -15,7 +15,6 @@ header{
 }
 
 nav{
-    background-color: aquamarine;
     grid-column: 1/4;
     grid-row: 2/3;
 }
@@ -25,7 +24,21 @@ nav ul{
     display: flex;
     justify-content: space-around;
     align-content: center;
+    padding-top:10px;
+    background-color: aquamarine;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: crimson;
+}
+
 
 main{
     background-color: blue;
