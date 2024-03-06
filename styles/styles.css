@@ -85,3 +85,14 @@ footer {
 #socials a:hover {
     transform: scale(1.1);
 }
+
+main div {
+    display: flex;
+    justify-content: space-around;
+}
+div img {
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
