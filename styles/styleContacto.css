@@ -7,7 +7,6 @@ body{
 }
 
 header{
-    background-color: aqua;
     grid-row: 1/2;
     grid-column: 1/4;
     display: flex;
@@ -39,15 +38,54 @@ nav ul li a:hover{
     color: crimson;
 }
 
+.tituloMain{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
 
 main{
-    background-color: blue;
     grid-column: 1/4;
     grid-row: 3/10;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.formulario{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/3;
+}
+
+.input{
+    height: 40px;
+    width: 200px;
+}
+
+.textarea{
+    width: 300px;
 }
 
 footer{
-    background-color: black;
+    display: flex;
+    justify-content: center;
     grid-column: 1/4;
     grid-row: 10/11;
 }
