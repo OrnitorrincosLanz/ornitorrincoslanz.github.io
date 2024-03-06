@@ -104,3 +104,8 @@ footer {
 #socials a:hover {
     transform: scale(1.1);
 }
+
+.imagenes img{
+    width: 25%;
+    height: 25%;
+}
