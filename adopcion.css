@@ -64,3 +64,8 @@ main div{
     margin: 5px;
     padding: 5px;
 }
+
+.imagenes img{
+    width: 25%;
+    height: 25%;
+}
