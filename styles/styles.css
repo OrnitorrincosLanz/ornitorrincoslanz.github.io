@@ -61,5 +61,27 @@ footer {
 
 #socials {
     color: black;
-    font-size: 24px;
+    font-size: 70px;
+}
+
+#socials a:visited {
+    color: black;
+    
+}
+
+#socials a:hover {
+    background-color: #f2f2f2;
+    transition: transform 1s ease-in-out;
+}
+
+#socials a:hover {
+    font-size: 1.5em; /* Aumenta el tamaño de la fuente en un 10% */
+}
+
+#socials a {
+    transition: transform 1.5s ease-in-out;
+}
+
+#socials a:hover {
+    transform: scale(1.1);
 }
